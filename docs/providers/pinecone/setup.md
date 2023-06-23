@@ -31,5 +31,5 @@ pinecone.create_index(name=os.environ['PINECONE_INDEX'],
                       dimension=1536,
                       metric='cosine',
                       metadata_config={
-                          "indexed": ['source', 'source_id', 'url', 'created_at', 'author', 'document_id']})
+                          "indexed": ['source', 'source_id', 'url', 'created_at', 'author', 'document_id','description','licenseType','friendlyLicenseType','jobType','shiftType','licenseState','certifications','state','clinicalUnit','role']})
 ```
