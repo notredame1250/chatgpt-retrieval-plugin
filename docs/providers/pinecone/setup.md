@@ -28,7 +28,7 @@ pinecone.init(api_key=os.environ['PINECONE_API_KEY'],
               environment=os.environ['PINECONE_ENVIRONMENT'])
 
 pinecone.create_index(name=os.environ['PINECONE_INDEX'],
-                      dimension=768,
+                      dimension=1536,
                       metric='cosine',
                       metadata_config={
                           "indexed": ['source', 'source_id', 'url', 'created_at', 'author', 'document_id','description','licenseType','friendlyLicenseType','jobType','shiftType','licenseState','certifications','state','clinicalUnit','role']})
