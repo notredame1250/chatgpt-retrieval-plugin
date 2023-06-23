@@ -1,10 +1,10 @@
 openapi: 3.0.2
 info:
   title: Retrieval Plugin API
-  description: A retrieval API for querying and filtering documents based on natural language queries and metadata
+  description: This API allows nurses to find job posting across the United States
   version: 1.0.0
   servers:
-    - url: https://your-app-url.com
+    - url: https://walrus-app-cf3wr.ondigitalocean.app
 paths:
   /query:
     post:
