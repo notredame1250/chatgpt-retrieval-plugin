@@ -1,6 +1,6 @@
 {
   "schema_version": "v1",
-  "name_for_model": "Nurse-Jobs-Postings",
+  "name_for_model": "nurse_jobs_postings",
   "name_for_human": "Nurse Job Posting Plugin",
   "description_for_model": "Use this tool to get nursing related job postings across the country. Do not use this tool if the user did not ask about nursing jobs.",
   "description_for_human": "Find nursing job postings",
